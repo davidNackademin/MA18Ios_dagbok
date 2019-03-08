@@ -15,6 +15,9 @@
 		63A1790622325B2100BFAC5F /* MA18Ios_dagbokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1790522325B2100BFAC5F /* MA18Ios_dagbokUITests.swift */; };
 		63A1791422325D2900BFAC5F /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1791322325D2900BFAC5F /* JournalTableViewController.swift */; };
 		63A179162232645300BFAC5F /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A179152232645300BFAC5F /* JournalEntry.swift */; };
+		63A179182232697F00BFAC5F /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A179172232697F00BFAC5F /* Journal.swift */; };
+		63A1791A22326E9B00BFAC5F /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1791922326E9B00BFAC5F /* JournalEntryViewController.swift */; };
+		63A1791C223277B800BFAC5F /* NewJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1791B223277B800BFAC5F /* NewJournalEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		63A1790722325B2100BFAC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A1791322325D2900BFAC5F /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
 		63A179152232645300BFAC5F /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		63A179172232697F00BFAC5F /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		63A1791922326E9B00BFAC5F /* JournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		63A1791B223277B800BFAC5F /* NewJournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				63A178E522325B2000BFAC5F /* AppDelegate.swift */,
 				63A178E922325B2000BFAC5F /* Main.storyboard */,
+				63A1791B223277B800BFAC5F /* NewJournalEntryViewController.swift */,
+				63A1791922326E9B00BFAC5F /* JournalEntryViewController.swift */,
 				63A1791322325D2900BFAC5F /* JournalTableViewController.swift */,
+				63A179172232697F00BFAC5F /* Journal.swift */,
 				63A179152232645300BFAC5F /* JournalEntry.swift */,
 				63A178EC22325B2000BFAC5F /* Assets.xcassets */,
 				63A178EE22325B2000BFAC5F /* LaunchScreen.storyboard */,
@@ -260,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A179162232645300BFAC5F /* JournalEntry.swift in Sources */,
+				63A1791A22326E9B00BFAC5F /* JournalEntryViewController.swift in Sources */,
+				63A1791C223277B800BFAC5F /* NewJournalEntryViewController.swift in Sources */,
 				63A1791422325D2900BFAC5F /* JournalTableViewController.swift in Sources */,
 				63A178E622325B2000BFAC5F /* AppDelegate.swift in Sources */,
+				63A179182232697F00BFAC5F /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
